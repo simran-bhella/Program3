@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Development/CS202/Program3/Concept.h
+iostream
+-
+vector
+-
+map
+-
+
+/mnt/d/Development/CS202/Program3/RedBlack.cpp
+RedBlack.h
+/mnt/d/Development/CS202/Program3/RedBlack.h
+
+/mnt/d/Development/CS202/Program3/RedBlack.h
+Concept.h
+/mnt/d/Development/CS202/Program3/Concept.h
+bits/stdc++.h
+-
+
+/mnt/d/Development/CS202/Program3/main.cpp
+Concept.h
+/mnt/d/Development/CS202/Program3/Concept.h
+RedBlack.cpp
+/mnt/d/Development/CS202/Program3/RedBlack.cpp
+
